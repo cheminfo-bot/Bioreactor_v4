@@ -7,6 +7,7 @@ Bit,PARAM_STATUS,Comment
 9,FLAG_RELAY_EMPTYING,1 for tank emptying
 12,FLAG_RELAY_ACID,1 acid adjonction
 13,FLAG_RELAY_BASE,1 base adjonction
+
 Bit,PARAM_WEIGHT_STATUS,Comment
 13-15,0: WEIGHT_STATUS_NORMAL,"stirring, regulating everything"
 13-15,1: WEIGHT_STATUS_WAITING,"sedimentation, regulations off"
@@ -15,6 +16,7 @@ Bit,PARAM_WEIGHT_STATUS,Comment
 13-15,4: WEIGHT_STATUS_STANDBY,"manual standby, everything is off"
 13-15,7: WEIGHT_STATUS_ERROR,"error in the value, everything stops"
 0-12,Time in the wait state in Minutes,
+
 Dec Value,PARAM_PH_STATE,Comment
 0,PH_STATE_PAUSE,"pH measure, no regulation"
 1,PH_STATE_MEASURE,pH measure and regulation
